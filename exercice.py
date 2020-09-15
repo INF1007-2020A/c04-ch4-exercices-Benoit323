@@ -32,8 +32,8 @@ def get_number_of_char(string: str, char: str) -> int:
 
 def get_number_of_words(sentence: str, word: str) -> int:
     for c in sentence:
-        if word
-        a =+ 1
+        if word in sentence:
+             a =+ 1
     return a
 
 
