@@ -30,7 +30,8 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
-    if 
+    if word in sentence:
+        
 
 
 def main() -> None:
