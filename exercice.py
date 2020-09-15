@@ -9,9 +9,7 @@ def is_even_len(string: str) -> bool:
 
 
 def remove_third_char(string: str) -> str:
-    for i in range(len(string)):
-        if i == 2:
-            string[x] = ""      
+    begin      
 
     
 
