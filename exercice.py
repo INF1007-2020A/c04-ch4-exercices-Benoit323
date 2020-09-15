@@ -17,7 +17,7 @@ def remove_third_char(string: str) -> str:
 
 
 def replace_char(string: str, old_char: str, new_char: str) -> str:
-    for old_char in strin
+    for old_char in string
 
         
 
