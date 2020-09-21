@@ -23,10 +23,6 @@ def replace_char(string: str, old_char: str, new_char: str) -> str:
 
     return string
 
-
-        
-
-
 def get_number_of_char(string: str, char: str) -> int:
     i = 0
     for a in range(len(string)):
@@ -37,9 +33,10 @@ def get_number_of_char(string: str, char: str) -> int:
 
 
 def get_number_of_words(sentence: str, word: str) -> int:
+    words = sentence.split()
     a = 0
-    for i in sentence:
-        if word in sentence:
+    for i in words:
+        if word in words:
              a = a +  1
     return a
 
